@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-
+<script type="module">
+    import 'https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js';
+  
+    const lightbox = GLightbox({ ...options });
+  </script>
 <html lang="ca">
-    <script type="module">
-        import 'https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js';
-      
-        const lightbox = GLightbox({ ...options });
-      </script>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
@@ -27,7 +26,7 @@
             <a class="link" target="_blank" href="https://grupdelecturadecologiapolitica.wordpress.com/"  rel="noopener">📃 Bloc</a>
             <a class="link" target="_blank" href="https://kutt.it/ecopol/"  rel="noopener">💾 Recursos (usuaris registrats)</a>
             <a class="link" target="_blank" href="mailto:fxiaex390@mozmail.com" rel="noopener">✉ Contacta'ns (Firefox Relay)</a>
-            <a href="large.jpg" class="glightbox img src="small.jpg  alt="image">cartell </a>
+            <a class="glightbox" href="large.jpg" img src="small.jpg  alt="image">cartell </a>
   </a>
         </div>
 
