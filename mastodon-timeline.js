@@ -6,11 +6,11 @@ document.addEventListener("DOMContentLoaded", () => {
 	let mapi = new MastodonApi({
 		container_id: 'mt-timeline',
 		container_body_id: 'mt-body',
-		instance_uri: 'https://mastodont.cat',
-		user_id: '109004514220113601',
+		instance_uri: 'https://mastodon.green',
+		user_id: '109007985505012620',
 		profile_name: '@ecopol',
 		toots_limit: 30,
-		btn_see_more: 'Mastodont.cat'
+		btn_see_more: 'https://mastodon.green'
 	});
 });
 
