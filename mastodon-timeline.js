@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	let mapi = new MastodonApi({
 		container_id: 'mt-timeline',
 		container_body_id: 'mt-body',
-		instance_uri: 'https://mastodont.cat',
+		instance_uri: 'https://mastodon.green',
 		user_id: '109007985505012620',
 		profile_name: '@ecopol',
 		toots_limit: 13,
