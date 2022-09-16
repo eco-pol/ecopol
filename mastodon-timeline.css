@@ -5,7 +5,7 @@
   height: calc(100% - 4rem);
   padding: 2rem 3rem;
   position: relative;
-  background: rgba(211, 211, 211, 0);
+  background: lightgray;
 }
 
 .mt-timeline a:link,
