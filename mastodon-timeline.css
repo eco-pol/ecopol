@@ -51,6 +51,7 @@
 .mt-user {
   display: table;
   font-weight: 600;
+  color: var(--color);
 }
 .mt-avatar {
   position: absolute;
