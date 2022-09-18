@@ -1,11 +1,15 @@
 /* Mastodon embed timeline */
-
+:root {
+  --font: 'Roboto Mono', monospace;
+  --background: white;
+  --color: #232333;
+}
 /* Main container */
 .mt-timeline {
   height: calc(100% - 4rem);
   padding: 1rem 1rem;
   position: relative;
-  background: rgba(0, 0, 0, 0.616);
+  background: var(--background);
 }
 
 .mt-timeline a:link,
@@ -175,4 +179,11 @@ text-align: center;
 	clip: rect(0, 0, 0, 0) !important;
 	white-space: nowrap !important;
 	border: 0 !important;
+}
+@media (prefers-color-scheme: dark) {
+
+  :root {        
+      --background: #202124;
+      --color: white;
+  }
 }
