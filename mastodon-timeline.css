@@ -83,6 +83,7 @@
 }
 .toot-text .ellipsis::after{
   content:'...';
+  color: darkred
 }
 .mt-error {
   color: darkred;
