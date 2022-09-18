@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		user_id: '109004514220113601',
 		profile_name: '@ecopol',
 		toots_limit: 13,
-		btn_see_more: 'See more posts at Mastodon'
 	});
 });
 
