@@ -93,6 +93,7 @@ width: auto;
 color: darkred;
 margin: 27px auto;
 text-decoration: none;
+text-align: left
 }
 @media (prefers-color-scheme: dark) {
 
