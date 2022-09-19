@@ -87,8 +87,12 @@ footer{
 
 }
 
-
-
+text{
+max-width: 90%;
+width: auto;
+color: darkred;
+margin: 27px auto;
+}
 @media (prefers-color-scheme: dark) {
 
     :root {        
