@@ -92,6 +92,7 @@ max-width: 90%;
 width: auto;
 color: darkred;
 margin: 27px auto;
+text-decoration: none;
 }
 @media (prefers-color-scheme: dark) {
 
